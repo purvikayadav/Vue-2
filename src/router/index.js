@@ -12,6 +12,7 @@ const routes = [
   { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound } // Catch-all for 404
 ];
 
+
 const router = createRouter({
   history: createWebHistory(),
   routes,
